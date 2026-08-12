@@ -1,0 +1,10 @@
+console.log("Vamos descobrir qual o número é par ou impar!")
+
+const numero1 = parseInt(prompt("Digite o primeiro número:"));
+const verificar_num = numero1
+
+if (verificar_num % 2 === 0 ){
+    console.log("Essa número é par")
+} else{
+    console.log("O número é impár!")
+}
