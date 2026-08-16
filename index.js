@@ -1,21 +1,32 @@
-console.log("Vamos inserir e descobrir o maior número")
-
-const numero1 = parseInt(prompt("Digite o primeiro número:"));
-const numero2 = parseInt(prompt("Digite o segundo número:"));
-const numero3 = parseInt(prompt("Digite o terceiro número:"));
-
-if (numero1 === numero2 && numero2 === numero3){
-    console.log("Todos os números são iguais: "+ numero1);
-} else if (numero1 === numero2 && numero1 > numero3){
-    console.log("O primeiro e o segundo são iguais e maiores que o terceiro: " + numero1);
-} else if (numero1 === numero3 && numero1 > numero2){
-    console.log("O primeiro e o terceiro são iguais e maiores que o segundo: " + numero1);
-} else if (numero2 === numero3 && numero2 > numero1){
-    console.log("O segundo e o terceiro são iguais e maiores que o primeiro: " + numero2);
-} else if (numero1 > numero2 && numero1 > numero3) {
-    console.log("O primeiro é o maior número: " + numero1);
-} else if (numero2 > numero1 && numero2 > numero3) {
-    console.log("O segundo é o maior número: " + numero2);
-}else {
-    console.log("O terceiro é o maior número: " + numero3);
+// Exemplo prático de funções
+// Exercício 1, converter temperatura
+function celconverterCelsiusParaFahrenheitcius (celcius){
+    const Fahrenheit = (celcius * 1.8) + 32
+    return Fahrenheit;
 }
+const temperatura = celconverterCelsiusParaFahrenheitcius (28)
+console.log(temperatura)
+
+//Exercíco 2, conferir idade para dirigir 
+function podeDirigir(idade){
+    if (idade >= 18){
+       return("Pode dirigir meu caro")
+    } else{
+      return ("Você ainda não pode dirigir!")
+    }
+    
+}
+console.log(podeDirigir(17))
+
+
+//Exercício 3, calcular média
+function calcularMedia(n1,n2,n3,n4){
+    const media = (n1 + n2 + n3 + n4) / 4
+    if (media >= 6){
+        return ("Aprovado")
+    } else {
+        return ("Reprovado")
+    } 
+}
+console.log(calcularMedia(3,4,3,5))
+console.log(calcularMedia(6,8,9,7))
