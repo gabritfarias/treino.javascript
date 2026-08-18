@@ -1,0 +1,86 @@
+// Exemplo prático de funções
+// Exercício 1, converter temperatura
+
+/*function celconverterCelsiusParaFahrenheitcius (celcius){
+    const Fahrenheit = (celcius * 1.8) + 32
+    return Fahrenheit;
+}
+const temperatura = celconverterCelsiusParaFahrenheitcius (28)
+console.log(temperatura)
+
+//Exercíco 2, conferir idade para dirigir 
+function podeDirigir(idade){
+    if (idade >= 18){
+       return("Pode dirigir meu caro")
+    } else{
+      return ("Você ainda não pode dirigir!")
+    }
+    
+}
+console.log(podeDirigir(17))
+
+
+//Exercício 3, calcular média
+function calcularMedia(n1,n2,n3,n4){
+    const media = (n1 + n2 + n3 + n4) / 4
+    if (media >= 6){
+        return ("Aprovado")
+    } else {
+        return ("Reprovado")
+    } 
+}
+console.log(calcularMedia(3,4,3,5))
+console.log(calcularMedia(6,8,9,7))*/
+
+// Exercicio 4, calcular IMC
+/*function calcularIMC(peso,altura){
+    const imc = peso / (altura * altura)
+    if (imc <= 24.9){
+        return `IMC: ${imc.toFixed(2)} - Está dentro do IMC ideal`;
+    } else {
+        return `IMC: ${imc.toFixed(2)} - Está fora do IMC ideal`;
+    }
+}
+console.log(calcularIMC(96, 1.76))*/
+// Exercicio 5, calcular fatorial
+/* 
+function calcularFatorial(n1){
+    let resultado = 1
+    for(let i = 1; i <= n1; i++){
+        resultado *= i
+    } 
+    return (resultado)
+}   
+console.log(calcularFatorial(6))*/
+
+//Exercicío 6, calcular moeda
+/*function converterMoeda(valor1){
+    let dollar = valor1 * 4.8
+    return `O valor do Dollar em dua moeda: ${dollar.toFixed(2)}`
+}
+console.log(converterMoeda(48))*/
+
+//Exercicío 7, calcular area e perímetro
+/*function calcularAreaePerimetro(altura, largura){
+    let area = altura * largura
+    let perimetro = 2 * (altura + largura)
+    return `A área total do perímetro é ${area.toFixed(2)}. E o perimetro é ${perimetro.toFixed(2)}`
+}
+console.log(calcularAreaePerimetro(2,10))8*/
+
+//Exercicío 8, calcular sala circular
+/*function calcularRaio(raio){
+    let area = 3.14 * raio * raio
+    let perimetro = 2 * 3.14 * raio
+    return `A area da sala é ${area.toFixed(2)}, e o perimetro é ${perimetro.toFixed(2)}`
+}
+console.log(calcularRaio(10))*/
+
+//Exercício 9, tabuada
+/*function calcularTabuada(n1){
+    for (let i = 1; i <= 10; i++){
+        let tabuada = n1 * i 
+        console.log(tabuada)
+    }
+}
+calcularTabuada(10)*/
